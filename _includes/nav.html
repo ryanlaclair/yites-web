@@ -1,3 +1,39 @@
 <nav>
-  NAV BAR
+
+  {% if page.title == "Home" %}
+  <a href="#">Home</a>
+  {% else %}
+  <a href="index.html">Home</a>
+  {% endif %}
+
+  {% if page.title == "Music" %}
+  <a href="#">Music</a>
+  {% else %}
+  <a href="music.html">Music</a>
+  {% endif %}
+
+  {% if page.title == "Videos" %}
+  <a href="#">Videos</a>
+  {% else %}
+  <a href="videos.html">Videos</a>
+  {% endif %}
+
+  {% if page.title == "Social" %}
+  <a href="#">Social</a>
+  {% else %}
+  <a href="social.html">Social</a>
+  {% endif %}
+
+  {% if page.title == "Discuss" %}
+  <a href="#">Discuss</a>
+  {% else %}
+  <a href="discuss.html">Discuss</a>
+  {% endif %}
+
+  {% if page.title == "Remix" %}
+  <a href="#">Remix</a>
+  {% else %}
+  <a href="remix.html">Remix</a>
+  {% endif %}
+
 </nav>

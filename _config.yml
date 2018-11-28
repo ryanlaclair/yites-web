@@ -1,0 +1,8 @@
+title: Yites
+description: >-
+  Yites music
+baseurl: ''
+url: ''
+collections:
+  - music
+  - videos

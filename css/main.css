@@ -1,0 +1,10 @@
+body {
+  background: #000000;
+  color: #ebe1cd;
+  padding: 4em 10em 0 10em;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}

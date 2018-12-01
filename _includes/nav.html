@@ -4,40 +4,44 @@
     <i class="fas fa-bars"></i>
   </a>
 
-  {% if page.title == "Home" %}
-  <a href="#" class="nav-item nav-item-active">Home</a>
-  {% else %}
-  <a href="index.html" class="nav-item">Home</a>
-  {% endif %}
+  <div id="nav-group">
 
-  {% if page.title == "Music" %}
-  <a href="#" class="nav-item nav-item-active">Music</a>
-  {% else %}
-  <a href="music.html" class="nav-item">Music</a>
-  {% endif %}
+    {% if page.title == "Home" %}
+    <a href="#" class="nav-item nav-item-active">Home</a>
+    {% else %}
+    <a href="index.html" class="nav-item">Home</a>
+    {% endif %}
 
-  {% if page.title == "Videos" %}
-  <a href="#" class="nav-item nav-item-active">Videos</a>
-  {% else %}
-  <a href="videos.html" class="nav-item">Videos</a>
-  {% endif %}
+    {% if page.title == "Music" %}
+    <a href="#" class="nav-item nav-item-active">Music</a>
+    {% else %}
+    <a href="music.html" class="nav-item">Music</a>
+    {% endif %}
 
-  {% if page.title == "Social" %}
-  <a href="#" class="nav-item nav-item-active">Social</a>
-  {% else %}
-  <a href="social.html" class="nav-item">Social</a>
-  {% endif %}
+    {% if page.title == "Videos" %}
+    <a href="#" class="nav-item nav-item-active">Videos</a>
+    {% else %}
+    <a href="videos.html" class="nav-item">Videos</a>
+    {% endif %}
 
-  {% if page.title == "Discuss" %}
-  <a href="#" class="nav-item nav-item-active">Discuss</a>
-  {% else %}
-  <a href="discuss.html" class="nav-item">Discuss</a>
-  {% endif %}
+    {% if page.title == "Social" %}
+    <a href="#" class="nav-item nav-item-active">Social</a>
+    {% else %}
+    <a href="social.html" class="nav-item">Social</a>
+    {% endif %}
 
-  {% if page.title == "Remix" %}
-  <a href="#" class="nav-item nav-item-active">Remix</a>
-  {% else %}
-  <a href="remix.html" class="nav-item">Remix</a>
-  {% endif %}
+    {% if page.title == "Discuss" %}
+    <a href="#" class="nav-item nav-item-active">Discuss</a>
+    {% else %}
+    <a href="discuss.html" class="nav-item">Discuss</a>
+    {% endif %}
+
+    {% if page.title == "Remix" %}
+    <a href="#" class="nav-item nav-item-active">Remix</a>
+    {% else %}
+    <a href="remix.html" class="nav-item">Remix</a>
+    {% endif %}
+
+  </div>
 
 </nav>

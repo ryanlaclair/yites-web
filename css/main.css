@@ -20,7 +20,7 @@ header {
     font-family: 'Ink Free Regular';  
     font-style: normal;
     font-weight: normal;
-    src: local('Ink Free Regular'), url('Inkfree.woff') format('woff');
+    src: local('Ink Free Regular'), url(/Inkfree.woff) format('woff');
 }
 
 h1, h2, h3, h4, h5, h6 {

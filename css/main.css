@@ -12,6 +12,12 @@ header {
   margin-top: 6em;
 }
 
+.responsive-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (max-width: 600px) {
   body {
     margin: 0 2em 0 2em;
@@ -24,5 +30,9 @@ header {
   img {
     max-width: 100%;
     height: auto;
+  }
+
+  .responsive-content iframe {
+    max-width: 100%;
   }
 }

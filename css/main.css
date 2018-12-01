@@ -16,8 +16,8 @@ header {
 
 
 
-a=@font-face {
-    font-family: 'Ink Free Regular';  /*#need to add font stack */
+@font-face {
+    font-family: 'Ink Free Regular';  
     font-style: normal;
     font-weight: normal;
     font-size: 80px;

@@ -16,7 +16,7 @@ header {
 
 
 
-h1 {
+a=@font-face {
     font-family: 'Ink Free Regular';  /*#need to add font stack */
     font-style: normal;
     font-weight: normal;
@@ -24,6 +24,9 @@ h1 {
     src: local('Ink Free Regular'), url('Inkfree.woff') format('woff');
 }
 
+h1 {
+    font: 'Ink Free Regular'; Arial, sans-serif 
+}
 .responsive-content {
   display: flex;
   flex-direction: column;

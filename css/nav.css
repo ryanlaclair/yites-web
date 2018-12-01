@@ -43,10 +43,14 @@ i {
 
   .responsive {
     flex-direction: column;
-    justify-content: start;
+  }
+
+  .responsive a:first-child {
+    position: relative;
   }
 
   .responsive a:not(:first-child) {
-    display: inline;
+    float: none;
+    display: block;
   }
 }

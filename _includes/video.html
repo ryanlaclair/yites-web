@@ -1,11 +1,8 @@
-<h3>
-  {{ video.title }}
-</h3>
+<div class="video-content">
+  <h3>
+    {{ video.title }}
+  </h3>
 
-<div class="fb-video" data-href="{{ video.link }}" data-width="450" data-show-text="false">
-  <blockquote cite="{{ video.link }}" class="fb-xfbml-parse-ignore">
-    <a href="{{ video.link }}"></a>
-    <p>{{ video.title }}</p>
-    Posted by <a href="https://www.facebook.com/YITESmusic/">Yites</a> on {{ video.date }}
-  </blockquote>
+  <iframe src="{{ video.link }}" width="{{ video.width }}" height="{{ video.height }}" style="border:none;overflow:hidden"
+    scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 </div>

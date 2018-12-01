@@ -1,7 +1,8 @@
 body {
   background: #000000;
   color: #ebe1cd;
-  margin: 0em 10em 0 10em;
+  margin: 0 10em 0 10em;
+  font-size: 16px;
 }
 
 header {
@@ -14,4 +15,11 @@ header {
 img {
   max-width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0 2em 0 2em;
+    font-size: 12px;
+  }
 }

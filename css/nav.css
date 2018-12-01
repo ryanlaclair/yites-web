@@ -19,7 +19,3 @@ nav {
 .nav-item-active {
   color: #ffaf50;
 }
-
-@media screen and (max-width: 600px) {
-
-}

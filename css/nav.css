@@ -10,6 +10,14 @@ nav {
   height: 3em;
 }
 
+a {
+  display: flex;
+}
+
+i {
+  margin-right: 1em;
+}
+
 .nav-item {
   color: #968c9b;
   text-decoration: none;
@@ -18,4 +26,27 @@ nav {
 
 .nav-item-active {
   color: #ffaf50;
+}
+
+#nav-responsive-button {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  nav a:not(:first-child) {
+    display: none;
+  }
+
+  #nav-responsive-button {
+    display: block;
+  }
+
+  .responsive {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .responsive a:not(:first-child) {
+    display: inline;
+  }
 }

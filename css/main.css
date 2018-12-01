@@ -20,6 +20,9 @@ img {
 @media screen and (max-width: 600px) {
   body {
     margin: 0 2em 0 2em;
-    font-size: 12px;
+  }
+
+  header {
+    margin: 3em 0 1em 0;
   }
 }

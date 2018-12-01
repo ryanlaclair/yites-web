@@ -18,7 +18,12 @@ title: Music
   </header>
 
   <main>
-    CONTENT
+
+    {% assign orderedMusic = site.music | sort: "order" %}
+    {% for music in orderedMusic %}
+    {% include music.html %}
+    {% endfor %}
+
   </main>
 
 </body>

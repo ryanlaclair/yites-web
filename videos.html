@@ -28,7 +28,7 @@ title: Videos
 
   <main>
 
-    {% assign orderedVideos = site.videos | sort:"order" %}
+    {% assign orderedVideos = site.videos | sort: "order" %}
     {% for video in orderedVideos %}
     {% include video.html %}
     {% endfor %}

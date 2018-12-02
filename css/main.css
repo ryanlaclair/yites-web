@@ -14,17 +14,8 @@ header {
   margin-top: 6em;
 }
 
-
-
-@font-face {
-    font-family: 'Ink Free Regular';  
-    font-style: normal;
-    font-weight: normal;
-    src: local('Ink Free Regular'), url(/Inkfree.woff) format('woff');
-}
-
 h1, h2, h3, h4, h5, h6 {
- font-family: 'Ink Free Regular', Helvetica, sans-serif;
+    font-family: 'Shadows Into Light', cursive, Helvetica, sans-serif;
  }
  h1 { font-size: 2em; }
  h2 { font-size: 1.5em; }
@@ -32,6 +23,15 @@ h1, h2, h3, h4, h5, h6 {
  h4 { font-size: 1.0em; }
  h5 { font-size: 0.9em; }
  h6 { font-size: 0.8em; }
+
+/**  code for exact font used in wireframe
+@font-face {
+  font-family: 'Ink Free Regular';  
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ink Free Regular'), url(../Inkfree.woff) format('woff');
+} 
+**/
 
 
 .responsive-content {

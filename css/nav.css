@@ -16,6 +16,7 @@ nav {
   margin: 0 1em 0 1em;
   font-family: 'Shadows Into Light', cursive, Helvetica, sans-serif;
   letter-spacing: 1.5px;
+  font-size: 2em; 
 }
 
 .nav-item-active {

@@ -17,9 +17,12 @@ header {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Shadows Into Light', cursive, Helvetica, sans-serif;
     letter-spacing: 1.5px;
- }
+}
+h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu Mono', monospace, Helvetica, sans-serif;
+}
  h1 { font-size: 4em; }
- h2 { font-size: 1.5em; }
+ h2 { font-size: 3.1em; }
  h3 { font-size: 1.2em ; }
  h4 { font-size: 1.0em; }
  h5 { font-size: 0.9em; }

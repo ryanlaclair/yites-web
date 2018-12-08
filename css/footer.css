@@ -1,0 +1,26 @@
+footer {
+  background: #111111;
+  font-family: 'Shadows Into Light', cursive, Helvetica, sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+p {
+  margin: 0.2em 0;
+}
+
+.footer-item {
+  color: #968c9b;
+  text-decoration: none;
+  margin: 0 1em 0 1em;
+}
+
+#footer-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

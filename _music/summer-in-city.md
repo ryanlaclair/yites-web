@@ -1,5 +1,5 @@
 ---
 link: "https://open.spotify.com/embed/album/4aetJwAlznNPdpitkuGzOH"
-height: 200
+height: 155
 order: 3
 ---

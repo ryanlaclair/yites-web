@@ -47,10 +47,10 @@ h2 {
 input[type=submit] {
   background-color: #ebe1cd;
   color: #647387;
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: 'Shadows Into Light', cursive, Helvetica, sans-serif;
-  padding:5px 15px; 
-  margin-top: 300px
+  padding:2px 30px; 
+  margin-top: 30px;
   border:0 none;
   cursor:pointer;
   -webkit-border-radius: 5px;

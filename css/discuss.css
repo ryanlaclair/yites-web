@@ -11,4 +11,13 @@ ul {
 
 textarea {
   width: 100%;
+  background-color: #111111;
+  color: #ebe1cd;
+  font-family: 'Source Sans Pro', monospace, sans-serif;
+  font-size: 0.8em;
+  border: 0 none;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  resize: none;
+  outline: none;
 }

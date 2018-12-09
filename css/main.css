@@ -1,3 +1,6 @@
+html {
+  height: 100%;
+}
 
 body {
   background: #000000;
@@ -9,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 100%;
 }
 
 header {
@@ -49,14 +53,14 @@ h2.blog {
 }
 
 input[type=submit] {
-  background-color: #ebe1cd;
-  color: #647387;
+  background-color: #111111;
+  color: #ffaf50;
   font-size: 1em;
   font-family: 'Shadows Into Light', cursive, Helvetica, sans-serif;
-  padding:2px 30px; 
+  padding: 2px 30px; 
   margin-top: 30px;
-  border:0 none;
-  cursor:pointer;
+  border: 0 none;
+  cursor: pointer;
   -webkit-border-radius: 5px;
   border-radius: 5px; 
 }

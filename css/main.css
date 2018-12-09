@@ -52,6 +52,15 @@ h2.blog {
   font-size: 1.5em;
 }
 
+h2.social {
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #968c9b;
+  color: #ebe1cd;
+  width: 500px;
+  margin-bottom: 0;
+}
+
 input[type=submit] {
   background-color: #111111;
   color: #ffaf50;

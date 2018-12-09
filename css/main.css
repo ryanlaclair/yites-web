@@ -73,7 +73,8 @@ input[type=submit], input[type=button] {
   border: 0 none;
   cursor: pointer;
   -webkit-border-radius: 5px;
-  border-radius: 5px; 
+  border-radius: 5px;
+  outline: none;
 }
 
 .responsive-content {

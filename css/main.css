@@ -44,10 +44,10 @@ h2 {
   font-size: 2em;
 }
 
-input[type=submit] {
+button[type=submit] {
   background-color: #ebe1cd;
   color: #647387;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: 'Shadows Into Light', cursive, Helvetica, sans-serif;
 }
 

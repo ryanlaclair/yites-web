@@ -44,6 +44,10 @@ h2 {
   font-size: 2em;
 }
 
+h2.blog {
+  font-size: 1.5em;
+}
+
 input[type=submit] {
   background-color: #ebe1cd;
   color: #647387;

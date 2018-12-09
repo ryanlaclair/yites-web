@@ -69,4 +69,10 @@ h2 {
   .responsive-content iframe {
     max-width: 100%;
   }
+
+  input [type="submit"]{
+    background-color: ebe1cd;
+    color: 647387;
+    font-size: 2em;
+  }
 }

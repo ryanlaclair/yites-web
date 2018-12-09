@@ -44,16 +44,11 @@ h1 {
 }
 
 h2 {
-  margin: 1em 0 0.2em 0;
-  font-size: 2em;
-}
-
-h2.blog {
+  margin: 0.2em 0 0.2em 0;
   font-size: 1.5em;
 }
 
 .content-heading {
-  font-size: 1.5em;
   text-align: center;
   background-color: #111111;
   color: #ebe1cd;
@@ -61,13 +56,20 @@ h2.blog {
   margin-bottom: 0;
 }
 
-input[type=submit] {
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+input[type=submit], input[type=button] {
   background-color: #111111;
   color: #ffaf50;
   font-size: 1em;
   font-family: 'Shadows Into Light', cursive, Helvetica, sans-serif;
-  padding: 2px 30px; 
-  margin-top: 30px;
+  margin-top: 1em;
+  padding: 2px 30px;
   border: 0 none;
   cursor: pointer;
   -webkit-border-radius: 5px;

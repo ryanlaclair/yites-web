@@ -69,11 +69,11 @@ h2 {
   .responsive-content iframe {
     max-width: 100%;
   }
+}
 
-input [type="submit"]{
+input [type="submit"] {
   background-color: ebe1cd;
   color: 647387;
   font-size: 2em;
   font-family: 'Shadows Into Light', cursive, Helvetica, sans-serif;
   }
-}

@@ -52,12 +52,12 @@ h2.blog {
   font-size: 1.5em;
 }
 
-h2.social {
+.content-heading {
   font-size: 1.5em;
   text-align: center;
   background-color: #111111;
   color: #ebe1cd;
-  width: 500px;
+  width: 100%;
   margin-bottom: 0;
 }
 
